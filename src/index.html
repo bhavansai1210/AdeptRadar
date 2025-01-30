@@ -14,13 +14,13 @@
   <body>
     <header class="input-sheet__logo">
       <div>
-        <span>Powered by Adept</span>
+        <span>Powered by Emfoi</span>
         <!-- <a href="https://www.thoughtworks.com"><img src="/images/tw-logo.png" alt="Thoughtworks logo" /></a> -->
       </div>
     </header>
     <div class="hero-banner">
       <div class="hero-banner__wrapper">
-        <h1 class="hero-banner__title-text">Build your own Radar</h1>
+        <h1 class="hero-banner__title-text">Adept Technology Map</h1>
       </div>
     </div>
     <main>
@@ -35,11 +35,11 @@
         </div>
       </div>
       <div class="helper-description home-page">
-        <p>
+        <!-- <p>
           Once you've created your Radar you can use this service
           to generate an interactive version of your Technology Radar. Not sure how?
           Read this first.
-        </p>
+        </p> -->
         <span class="loader-text">
           <span class="loader-text__title">Building your radar...</span>
           <p>Your Technology Radar will be available in just a few seconds</p>
@@ -54,19 +54,20 @@
       <div id="error-container" class="error-container home-page"></div>
       <div class="input-sheet-form home-page">
         <p>
-          Enter the URL of your
-          <a href="" target="_blank">Google Sheet, CSV or JSON</a> file below…
+          Enter the URL of your data
+          <a href="" target="_blank">CSV or JSON</a> file below…
         </p>
         <form id="byor-form-submit" method="get">
+          <!-- https://docs.google.com/spreadsheets/d/<sheetid> or  -->
           <input
             type="text"
             name="documentId"
             id="document-input"
-            placeholder="e.g. https://docs.google.com/spreadsheets/d/<sheetid> or hosted CSV/JSON file"
+            placeholder="e.g. hosted CSV/JSON file"
             required=""
           />
-          <input type="submit" value="Build my radar" />
-          <a href="">Need help?</a>
+          <input type="submit" value="Build technology map" />
+          <!-- <a href="">Need help?</a> -->
         </form>
       </div>
       <div class="graph-header"></div>
@@ -92,10 +93,7 @@
         </div>
       </div>
       <p class="agree-terms">
-        Powered by Adept. By using this service you agree to
-        Adept' terms of use. You also agree to our
-        privacy policy, which describes how we will gather,
-        use and protect any personal data contained in your public Google Sheet.
+        Powered by Emfoi. By using this service, you agree to Emfoi's Terms of Use. You also agree to our Privacy Policy, which outlines how we collect, use, and protect any personal data.
       </p>
     </footer>
     <div class="pdf-page-footer">
